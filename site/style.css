@@ -1,0 +1,100 @@
+h1
+{
+	text-align: center;
+
+}
+div 
+{   float: right;
+	font-size: 25px;
+	border:1.5px solid;
+	padding:0px 15px; 
+}
+p
+{
+	font-family: "Times New Roman", Times,sans-serif;
+	margin:5px;
+	clear:both;
+}
+section
+{
+	background-color:#A0B1B7;
+	border:2px solid;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+
+}
+*{
+	box-sizing:border-box;
+}
+.sec1 >div
+{
+	background-color: pink;
+}
+.sec2>div
+{
+	background-color:#F95C5B;
+}
+.sec3>div
+{
+	background-color: #78F479;
+}
+@media (min-width: 992px)
+{
+section
+{
+	width: 30%;
+	float: left;
+}
+.sec1
+{
+	margin-left:2.5%;
+    margin-right:1.25%;
+}
+.sec2
+{
+	margin-left:1.25%;
+    margin-right:1.25%;
+}
+.sec3
+{
+	margin-left:1.25%;
+    margin-right:2.5%;
+}
+}
+@media (min-width: 768px) and (max-width: 991.99px)
+{
+section
+{
+	width:48.5%;
+	float: left;
+}
+.sec1
+{
+	margin-left:1%;
+    margin-right:0.5%;
+}
+.sec2
+{
+	margin-left:0.5%;
+    margin-right:1%;
+}
+
+.sec3
+{
+	width: 98%;
+	margin-left:1%;
+    margin-right:1%;
+
+
+}
+@media (max-width: 767px)
+{
+	section
+{
+	width:100%;
+	float: left;
+}
+
+
+}
