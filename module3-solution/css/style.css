@@ -31,7 +31,7 @@
   text-align: center;
 }
 #nav-list a:hover {
-  background: #E7E7E7;
+  background: white;
   }
 
 
@@ -45,7 +45,7 @@
   margin: 15px;
  }
   .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+  border: 1px solid ;
 }
 .navbar-header button.navbar-toggle {
   clear:left;
